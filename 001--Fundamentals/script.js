@@ -54,3 +54,32 @@ if (birthYear <= 2000) {
     century = 21;
 }
 console.log(century);
+
+//type conversion
+console.log('Type Conversion');
+const inputYear = '2022';
+console.log(Number(inputYear) + 8);
+console.log(inputYear + 8);
+console.log(Number('Huy'));
+
+console.log(String(69));
+console.log(typeof '69');
+
+//type coercion
+console.log('I am ' + 25 + ' years old');
+console.log('23' - '10' - 3);
+console.log('23' + '10' + 3);
+console.log('23' * '2');
+console.log('23' / '2');
+
+// truthy & falsy values
+console.log(Boolean(0));
+console.log(Boolean('Huy'));
+console.log(Boolean({}));
+
+const money = 0;
+if (money) {
+    console.log("Don't spend it all");
+} else {
+    console.log('You should get a job!');
+}
