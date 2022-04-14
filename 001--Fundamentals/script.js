@@ -1,5 +1,5 @@
-// let js = 'amazing';
-// if (js === 'amazing') alert('JavaScript is fun!');
+let js = 'amazing';
+if (js === 'amazing') alert('JavaScript is fun!');
 
 let firstName = 'Huy';
 console.log(firstName);
@@ -14,13 +14,11 @@ console.log(year, age);
 console.log(age - 1, 2 ** 3); // 2**3 = 2*2*2
 
 //concatenate strings
-console.log('Concatenate Strings');
 const huyFirstName = 'Huy';
 const huyLastName = 'Pham';
 console.log(huyFirstName + ' ' + huyLastName);
 
 //assignment
-console.log('Assignment');
 let x = 10 + 5;
 x += 10; // x = x + 10
 x *= 5; // x = x * 5
@@ -28,16 +26,13 @@ x++; // x = x + 1
 console.log(x);
 
 //comparison
-console.log('Comparison');
 console.log(age > x);
 const isFullAge = age >= 18;
 
 //operator precedence
-console.log('Precedence');
 console.log(year - 1991 > year - 2002); //31 > 18 => true
 
 //template literals
-console.log('Template Literals');
 const huyName = `I'm ${huyFirstName}`;
 console.log(huyName);
 console.log(`String with
@@ -45,7 +40,6 @@ multiple
 lines`);
 
 //if else statements
-console.log('if else statements');
 const birthYear = 1997;
 let century;
 if (birthYear <= 2000) {
@@ -56,7 +50,6 @@ if (birthYear <= 2000) {
 console.log(century);
 
 //type conversion
-console.log('Type Conversion');
 const inputYear = '2022';
 console.log(Number(inputYear) + 8);
 console.log(inputYear + 8);
@@ -83,3 +76,22 @@ if (money) {
 } else {
     console.log('You should get a job!');
 }
+
+//equality operators
+const ageValue = '18';
+//strict
+if (ageValue === 18) {
+    console.log('true');
+} else {
+    console.log('false');
+}
+//loose
+if (ageValue == 18) {
+    console.log('true');
+} else {
+    console.log('false');
+}
+
+//prompt function
+const favoriteNumber = prompt('What is your favorite number?');
+console.log(favoriteNumber);
