@@ -95,3 +95,18 @@ if (ageValue == 18) {
 //prompt function
 const favoriteNumber = prompt('What is your favorite number?');
 console.log(favoriteNumber);
+
+//logical operators
+const hasDriversLicense = true;
+const hasGoodVision = false;
+
+console.log(hasDriversLicense && hasGoodVision); // false
+console.log(hasDriversLicense || hasGoodVision); // true
+console.log(!hasDriversLicense); // false
+
+const shouldDrive = hasDriversLicense && hasGoodVision;
+if (shouldDrive) {
+    console.log('JavaScript is able to drive!');
+} else {
+    console.log('Someone else should drive ...');
+}
