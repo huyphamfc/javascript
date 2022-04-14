@@ -35,3 +35,22 @@ const isFullAge = age >= 18;
 //operator precedence
 console.log('Precedence');
 console.log(year - 1991 > year - 2002); //31 > 18 => true
+
+//template literals
+console.log('Template Literals');
+const huyName = `I'm ${huyFirstName}`;
+console.log(huyName);
+console.log(`String with
+multiple
+lines`);
+
+//if else statements
+console.log('if else statements');
+const birthYear = 1997;
+let century;
+if (birthYear <= 2000) {
+    century = 20;
+} else {
+    century = 21;
+}
+console.log(century);
