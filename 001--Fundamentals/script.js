@@ -138,3 +138,24 @@ switch (day) {
     default:
         console.log('Not a valid day');
 }
+
+//conditional (ternary) operator
+/*
+Expressions:
+    3 + 4
+    2002
+    true && false && !false
+    ...
+Statements:
+    if (...){
+        ...
+    }
+    ...
+*/
+const tonyAge = 15;
+tonyAge >= 18 ? console.log('He likes to drink wine') : console.log('He likes to drink water');
+
+const drink = tonyAge >= 18 ? 'wine' : 'water';
+console.log(drink);
+
+console.log(`I like to drink ${tonyAge >= 18 ? 'wine' : 'water;'}`);
