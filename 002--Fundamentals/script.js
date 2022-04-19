@@ -52,3 +52,33 @@ console.log(calculateAge('JavaScript', 1995));
 const calAge = birthYear => 2022 - birthYear;
 const personInfo = (firstName, birthYear) => `${firstName} is ${calAge(birthYear)} years old`;
 console.log(personInfo('Baby', 2020));
+
+//arrays
+const friends = ['Michael', 'Steven', 'Peter'];
+const years = new Array(2022, 2023, 2024);
+
+console.log(friends);
+console.log(years);
+
+console.log(friends[0]);
+console.log(years[1]);
+
+console.log(friends.length);
+console.log(friends[friends.length - 1]);
+
+friends[2] = 'John';
+console.log(friends);
+
+const person = ['Huy', 'Pham', 2, friends];
+console.log(person);
+
+//add elements into an array - push & unshift
+friends.push('Messi');
+friends.unshift('Ronaldo');
+console.log(friends);
+
+//remove elements from an array
+const popped = friends.pop();
+const shifted = friends.shift();
+console.log(friends.indexOf('Steven'));
+console.log(friends.includes('Steven'));// true or false
