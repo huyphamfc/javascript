@@ -58,7 +58,7 @@ console.log(personInfo('Baby', 2020));
 
 // ARRAYS
 const friends = ['Michael', 'Steven', 'Peter'];
-const years = new Array(2022, 2023, 2024);
+const years = new Array(2022, 2002, 1991);
 
 console.log(friends);
 console.log(years);
@@ -123,3 +123,21 @@ console.log(text);
 // object methods
 console.log(huy.calculateAge());
 console.log(huy.getSummary());
+
+
+// FOR LOOP
+for (let i = 0; i < person.length; i++) {
+    console.log(person[i], typeof person[i]);
+}
+
+const types = [];
+for (let i = 0; i < person.length; i++) {
+    types[i] = typeof person[i];
+}
+console.log(types);
+
+const ages = [];
+for (let i = 0; i < years.length; i++) {
+    ages.push(2022 - years[i]);
+}
+console.log(ages);
