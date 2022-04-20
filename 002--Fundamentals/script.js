@@ -141,3 +141,29 @@ for (let i = 0; i < years.length; i++) {
     ages.push(2022 - years[i]);
 }
 console.log(ages);
+
+
+// CONTINUE & BREAK
+const numbers = [1, 'two', 3, 4, 'five', 6, 7];
+// continue
+for (let i = 0; i < numbers.length; i++) {
+    if (typeof numbers[i] !== 'number') continue;
+    console.log(numbers[i]);
+}
+// break
+for (let i = 0; i < numbers.length; i++) {
+    if (typeof numbers[i] !== 'number') break;
+    console.log(numbers[i]);
+}
+
+// LOOPING BACKWARD & LOOPS IN LOOPS
+// looping backward
+for (let i = numbers.length; i >= 0; i--) {
+    console.log(numbers[i]);
+}
+// loops in loops
+for (let i = 0; i < 5; i++) {
+    for (let j = 0; j < 5; j++) {
+        console.log('*');
+    }
+}
