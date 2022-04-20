@@ -167,3 +167,14 @@ for (let i = 0; i < 5; i++) {
         console.log('*');
     }
 }
+
+// WHILE LOOP
+let i = 1;
+while (i < 6) {
+    console.log(i);
+    i++;
+}
+// Random number
+let dice = Math.random() * 10; // create a number between 0 and 1
+console.log(dice);
+console.log(Math.trunc(dice)); // return the integer of a number by removing any fractional digits
