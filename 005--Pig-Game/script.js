@@ -30,22 +30,53 @@ const scores = [0, 0];
 let currentScore = 0;
 let activePlayer = 0;
 
+let playing = true;
+
 
 // ROLLING DICE FUNCTIONALITY
 rollDiceBtn.addEventListener('click', function () {
-    // generating a random dice roll
-    const diceValue = Math.trunc(Math.random() * 6) + 1;
+    if (playing) {
+        // generating a random dice roll
+        const diceValue = Math.trunc(Math.random() * 6) + 1;
 
-    // display dice roll
-    dice.classList.remove('hidden');
-    dice.src = `img/dice-${diceValue}.png`;
+        // display dice roll
+        dice.classList.remove('hidden');
+        dice.src = `img/dice-${diceValue}.png`;
 
-    // check for rolled 1
-    if (diceValue !== 1) {
-        // add dice to current score
-        currentScore += diceValue;
-        document.getElementById(`current--${activePlayer}`).textContent = currentScore;
-    } else {
+        // check for rolled 1
+        if (diceValue !== 1) {
+            // add dice to current score
+            currentScore += diceValue;
+            document.getElementById(`current--${activePlayer}`).textContent = currentScore;
+        } else {
+            // switch player        
+            currentScore = 0;
+            document.getElementById(`current--${activePlayer}`).textContent = currentScore;
+            activePlayer = activePlayer === 0 ? 1 : 0;
+            player_0.classList.toggle('player--active');
+            player_1.classList.toggle('player--active');
+        }
+    }
+})
+
+
+// HOLDING CURRENT SCORE FUNCTIONALITY
+holdBtn.addEventListener('click', function () {
+    if (playing) {
+        // add current score to the active player's score
+        scores[activePlayer] += currentScore;
+        document.getElementById(`score--${activePlayer}`).textContent = scores[activePlayer];
+
+        // check score
+        if (scores[activePlayer] >= 100) {
+            // finish the game
+            playing = false;
+            dice.classList.add('hidden');
+            document.querySelector(`.player--${activePlayer}`).classList.add('player--winner');
+            document.querySelector(`.player--${activePlayer}`).classList.remove('player--active');
+            return;
+        }
+
         // switch player        
         currentScore = 0;
         document.getElementById(`current--${activePlayer}`).textContent = currentScore;
