@@ -8,6 +8,9 @@ const newGameBtn = document.querySelector('.btn--new');
 const rollDiceBtn = document.querySelector('.btn--roll');
 const holdBtn = document.querySelector('.btn--hold');
 
+const player_0 = document.querySelector('.player--0');
+const player_1 = document.querySelector('.player--1');
+
 const scoreBoard = document.querySelector('.score');
 const scoreBoard_0 = document.querySelector('#score--0');
 const scoreBoard_1 = document.querySelector('#score--1');
@@ -23,7 +26,9 @@ dice.classList.add('hidden');
 scoreBoard_0.textContent = 0;
 scoreBoard_1.textContent = 0;
 
+const scores = [0, 0];
 let currentScore = 0;
+let activePlayer = 0;
 
 
 // ROLLING DICE FUNCTIONALITY
@@ -39,7 +44,13 @@ rollDiceBtn.addEventListener('click', function () {
     if (diceValue !== 1) {
         // add dice to current score
         currentScore += diceValue;
+        document.getElementById(`current--${activePlayer}`).textContent = currentScore;
     } else {
-        // switch player
+        // switch player        
+        currentScore = 0;
+        document.getElementById(`current--${activePlayer}`).textContent = currentScore;
+        activePlayer = activePlayer === 0 ? 1 : 0;
+        player_0.classList.toggle('player--active');
+        player_1.classList.toggle('player--active');
     }
 })
