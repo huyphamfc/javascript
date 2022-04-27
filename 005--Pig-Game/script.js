@@ -17,7 +17,7 @@ const scoreBoard_1 = document.querySelector('#score--1');
 
 const currentScoreBoard = document.querySelector('.current-score');
 const currentScoreBoard_0 = document.querySelector('#current--0');
-const currentScoreBoard_2 = document.querySelector('#current--2');
+const currentScoreBoard_1 = document.querySelector('#current--1');
 
 
 // STARTING CONDITIONS
@@ -62,13 +62,13 @@ rollDiceBtn.addEventListener('click', function () {
 
 // HOLDING CURRENT SCORE FUNCTIONALITY
 holdBtn.addEventListener('click', function () {
-    if (playing) {
+    if (playing && !dice.classList.contains('hidden')) {
         // add current score to the active player's score
         scores[activePlayer] += currentScore;
         document.getElementById(`score--${activePlayer}`).textContent = scores[activePlayer];
 
         // check score
-        if (scores[activePlayer] >= 100) {
+        if (scores[activePlayer] >= 10) {
             // finish the game
             playing = false;
             dice.classList.add('hidden');
@@ -84,4 +84,25 @@ holdBtn.addEventListener('click', function () {
         player_0.classList.toggle('player--active');
         player_1.classList.toggle('player--active');
     }
+})
+
+
+// Reset Game
+newGameBtn.addEventListener('click', function () {
+    dice.classList.add('hidden');
+    scoreBoard_0.textContent = 0;
+    scoreBoard_1.textContent = 0;
+    scores[0] = 0;
+    scores[1] = 0;
+    currentScore = 0;
+    activePlayer = 0;
+    playing = true;
+    scoreBoard_0.textContent = 0;
+    scoreBoard_1.textContent = 0;
+    currentScoreBoard_0.textContent = 0;
+    currentScoreBoard_1.textContent = 0;
+    player_0.classList.remove('player--winner');
+    player_1.classList.remove('player--winner');
+    player_0.classList.add('player--active');
+    player_1.classList.remove('player--active');
 })
