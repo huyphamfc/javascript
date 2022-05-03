@@ -61,3 +61,35 @@ function calcAge(birthYear) {
     console.log(x === window.x); // true
     console.log(y === window.y); // false
     console.log(z === window.z); // false
+
+
+    // THE THIS KEYWORD
+    console.log(this); // Window {} - use the this keyword of its parent function/scope
+
+    const calculateAge = function (birthYear) {
+        console.log(2022 - birthYear); // 2
+        console.log(this); // undefined
+    }
+    calculateAge(2020);
+
+    const calculateAge_2 = (birthYear) => {
+        console.log(2022 - birthYear); // 2
+        console.log(this); // Window {}
+    }
+    calculateAge_2(2020);
+
+    const baby = {
+        birthYear: 1991,
+        calculateAge: function () {
+            console.log(this); // { birthYear: 1991, calculateAge: [Function: calculateAge] }
+            console.log(2022 - this.birthYear); // 31
+        }
+    }
+    baby.calculateAge();
+
+    const boy = {
+        year: 2002,
+    }
+    boy.calculateAge = baby.calculateAge;
+    console.log(boy); // method borrowing - { birthYear: 2002, calculateAge: [Function: calculateAge] }
+    boy.calculateAge(); // NaN
