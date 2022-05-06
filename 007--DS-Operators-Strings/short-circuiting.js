@@ -16,3 +16,20 @@ console.log(result); // -1
 
 const result_2 = value || -1;
 console.log(result_2); // -1
+
+
+
+// AND SHORT CIRCUITING
+console.log(0 && 'Huy'); // 0
+console.log(7 && 'Baby'); // Baby
+console.log('Hello' && 23 && null && 'Huy'); // null
+
+// application
+const mathScore = 'PASSED';
+const literatureScore = 'PASSED';
+
+const target = mathScore === 'PASSED' && literatureScore === 'PASSED' ? 'PASSED' : 'FAILED';
+console.log(target); // PASSED
+
+const target_2 = mathScore && literatureScore;
+console.log(target_2); // PASSED
