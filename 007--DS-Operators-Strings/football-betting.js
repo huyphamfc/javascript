@@ -16,3 +16,59 @@
 
 
 'use strict';
+
+const game = {
+    team_1: 'Bayern Munich',
+    team_2: 'Borrussia Dortmund',
+    players: [
+        [
+            'Neuer',
+            'Pavard',
+            'Martinez',
+            'Alaba',
+            'Davies',
+            'Kimmich',
+            'Goretzka',
+            'Coman',
+            'Muller',
+            'Gnarby',
+            'Lewandowski'
+        ],
+        [
+            'Burki',
+            'Schulz',
+            'Hummels',
+            'Akanji',
+            'Hakimi',
+            'Weigl',
+            'Hazard',
+            'Brandt',
+            'Sancho',
+            'Gotze'
+        ]
+    ],
+    score: '4:0',
+    scored: ['Lewandowski', 'Gnarby', 'Lewandowski', 'Hummels'],
+    date: 'May 9th, 2022',
+    odds: {
+        team_1: 1.33,
+        x: 3.25,
+        team_2: 6.5
+    }
+};
+
+const [players_1 = [], players_2 = []] = game.players;
+const [gk_1, ...field_1] = players_1;
+const [gk_2, ...field_2] = players_2;
+const allPlayers = [...players_1, ...players_2];
+const playersFinal_1 = [...players_1, 'Thiago', 'Coutinho', 'Perisic'];
+const { odds: { team_1, x: draw, team_2 } } = game;
+console.log(team_1, draw, team_2);
+
+const printGoals = function (...players) {
+    console.log(`${players.length} goals were scored`);
+}
+printGoals('Davies', 'Muller', 'Lewandowski');
+
+team_1 < team_2 && console.log('Team 1 is more likely to win');
+team_1 > team_2 && console.log('Team 2 is more likely to win');
