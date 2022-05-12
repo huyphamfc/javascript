@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tips</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container flex">
+        <div class="content">
+            <h1 class="title">Tips Application</h1>
+            <form class="form" action="">
+                <div class="form-item">
+                    <label class="label-index" for="bill">Bill</label>
+                    <input class="input" type="text" id="bill" required>
+                    <label class="label-unit" for="">$</label>
+                </div>
+                <div class="form-item">
+                    <label class="label-index" for="">Are you happy?</label>
+                    <select class="input" name="" id="" required>
+                        <option value="">-Please choose an option-</option>
+                        <option value="">Excellent</option>
+                        <option value="">Good</option>
+                        <option value="">OK</option>
+                        <option value="">Bad</option>
+                    </select>
+                    <label class="label-unit" for="">%</label>
+                </div>
+                <div class="form-item">
+                    <label class="label-index" for="">Split by</label>
+                    <input class="input" type="text" required>
+                    <label class="label-unit" for="">people</label>
+                </div>
+                <div class="form-item">
+                    <label class="label-index" for="">Tip</label>
+                    <input class="input input--solid" type="text" id="" disabled required>
+                    <label class="label-unit" for="">$</label>
+                </div>
+                <div class="form-item">
+                    <label class="label-index" for="">Total</label>
+                    <input class="input input--solid" type="text" disabled required>
+                    <label class="label-unit" for="">$</label>
+                </div>
+                <div class="form-item">
+                    <label class="label-index" for="">Per person</label>
+                    <input class="input" type="text" disabled required>
+                    <label class="label-unit" for="">$</label>
+                </div>
+                <button class="btn" type="button">Calculate</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
