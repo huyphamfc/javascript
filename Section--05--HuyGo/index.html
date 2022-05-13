@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HuyGo Vietnam</title>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main class="main">
+        <div class="container">
+            <form action="" class="form tag">
+                <h2 class="form-title">HuyGo Booking</h2>
+                <div class="form-content">
+                    <div class="form-row">
+                        <label for="distance">Distance (km): </label>
+                        <input class="input" type="text" id="distance">
+                    </div>
+                    <div class="form-row">
+                        <label for="wait">Waiting Time (min): </label>
+                        <input class="input" type="text" id="wait">
+                    </div>
+                    <div class="form-row">
+                        <label for="">Vehicles: </label>
+                        <input class="input" type="radio" id="bike" name="vehicles">
+                        <label for="bike">HuyBike</label>
+                        <input class="input" type="radio" id="bus" name="vehicles">
+                        <label for="bus">HuyBus</label>
+                        <input class="input" type="radio" id="car" name="vehicles">
+                        <label for="car">HuyCar</label>
+                    </div>
+                    <div class="cost">
+                        <p class="cost-total">Total Cost:</p>
+                        <p class="cost-text"><span>$</span></p>
+                    </div>
+                    <div>
+                        <button class="btn" type="button">Calculate</button>
+                        <button class="btn btn--sub" type="button">Price Details</button>
+                    </div>
+                </div>
+            </form>
+            <div class="description tag">
+                <div>
+                    <img class="img" src="img/car.jpg" alt="Car Image">
+                </div>
+                <div class="bill">
+
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
