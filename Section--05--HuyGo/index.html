@@ -13,45 +13,48 @@
 </head>
 
 <body>
-    <main class="main">
+    <main class="main flex">
         <div class="container">
-            <form action="" class="form tag">
-                <h2 class="form-title">HuyGo Booking</h2>
-                <div class="form-content">
-                    <div class="form-row">
+            <div class="tag">
+                <p class="tag__title">HuyGo Vietnam</p>
+                <form action="" class="tag__form">
+                    <div class="form__row">
                         <label for="distance">Distance (km): </label>
-                        <input class="input" type="text" id="distance">
+                        <input class="form__input" type="text" id="distance">
                     </div>
-                    <div class="form-row">
-                        <label for="wait">Waiting Time (min): </label>
-                        <input class="input" type="text" id="wait">
+                    <div class="form__row">
+                        <label for="waitTime">Waiting Time (min): </label>
+                        <input class="form__input" type="text" id="waitTime">
                     </div>
-                    <div class="form-row">
-                        <label for="">Vehicles: </label>
-                        <input class="input" type="radio" id="bike" name="vehicles">
-                        <label for="bike">HuyBike</label>
-                        <input class="input" type="radio" id="bus" name="vehicles">
-                        <label for="bus">HuyBus</label>
-                        <input class="input" type="radio" id="car" name="vehicles">
-                        <label for="car">HuyCar</label>
+                    <div class="form__row">
+                        <label for="">Vehicle: </label>
+                        <div class="form__select flex">
+                            <div>
+                                <input class="form__input--radio" type="radio" name="vehicle" id="bike">
+                                <label for="bike">HuyBike</label>
+                            </div>
+                            <div>
+                                <input class="form__input--radio" type="radio" name="vehicle" id="bus">
+                                <label for="bus">HuyBus</label>
+                            </div>
+                            <div>
+                                <input class="form__input--radio" type="radio" name="vehicle" id="car">
+                                <label for="car">HuyCar</label>
+                            </div>
+                        </div>
                     </div>
-                    <div class="cost">
-                        <p class="cost-total">Total Cost:</p>
-                        <p class="cost-text"><span>$</span></p>
+                    <div class="form__row form__cost flex">
+                        <span>Total Cost: </span>
+                        <span class="form__cost-value"></span>
                     </div>
-                    <div>
-                        <button class="btn" type="button">Calculate</button>
-                        <button class="btn btn--sub" type="button">Price Details</button>
+                    <div class="form__row form__button flex">
+                        <button class="btn btn--cta" type="button">Calculate</button>
+                        <button class="btn btn--rs" type="button">Reset</button>
                     </div>
-                </div>
-            </form>
-            <div class="description tag">
-                <div>
-                    <img class="img" src="img/car.jpg" alt="Car Image">
-                </div>
-                <div class="bill">
-
-                </div>
+                </form>
+            </div>
+            <div class="description">
+                <div class="description__bill"></div>
             </div>
         </div>
     </main>
