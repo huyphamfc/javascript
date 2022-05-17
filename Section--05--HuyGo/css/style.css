@@ -51,6 +51,7 @@ body {
     background-image: url(../img/car.jpg);
     background-position: center;
     background-size: cover;
+    height: 46rem;
 }
 
 .tag__title,
@@ -142,4 +143,22 @@ body {
 .btn--rs:hover {
     background-color: var(--color-grey);
     color: var(--color-pallet);
+}
+
+/* RESPONSIVE */
+@media (max-width: 50em) {
+    .main {
+        height: auto;
+        padding: 9.6rem 0;
+    }
+
+    .container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 34em) {
+    .form__select {
+        flex-direction: column;
+    }
 }
