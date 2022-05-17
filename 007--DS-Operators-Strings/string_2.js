@@ -38,7 +38,7 @@ console.log(announcement.replace(/door/g, 'gate'));
 // Boolean
 const plane = 'HuyAir A320neo';
 console.log(plane.includes('A32')); // true
-console.log(plane.includes('Air')); // false
+console.log(plane.includes('AIR')); // false
 if (plane.startsWith('Huy') && plane.endsWith('neo'))
     console.log('Part of the new HuyAir family');
 
