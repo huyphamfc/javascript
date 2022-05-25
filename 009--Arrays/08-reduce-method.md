@@ -47,3 +47,11 @@ Iteration 7: 2540
 */
 console.log(balance);
 ```
+
+```js
+const maximum = movements.reduce((max, mov) => {
+  if (mov > max) return mov;
+  return max;
+}, movements[0]);
+console.log(maximum);
+```
