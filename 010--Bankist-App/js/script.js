@@ -83,6 +83,22 @@ const displayBalance = function (movements) {
 displayBalance(account1.movements);
 
 
+const displaySummary = function (movements) {
+  const incomes = movements
+    .filter(value => value > 0)
+    .reduce((total, value) => total + value, 0);
+  const outcomes = movements
+    .filter(value => value < 0)
+    .reduce((total, value) => total + value, 0);
+  const invests = incomes * 1.2 / 100;
+
+  labelSumIn.textContent = `${incomes}€`;
+  labelSumOut.textContent = `${Math.abs(outcomes)}€`;
+  labelSumInterest.textContent = `${invests}€`;
+}
+displaySummary(account1.movements);
+
+
 const createUserNames = function (accounts) {
   accounts.forEach(account => {
     account.username = account.owner
