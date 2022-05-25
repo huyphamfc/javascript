@@ -77,6 +77,12 @@ const displayMovements = function (movements) {
 displayMovements(account1.movements);
 
 
+const displayBalance = function (movements) {
+  labelBalance.textContent = movements.reduce((sum, mov) => sum + mov, 0) + '€';
+};
+displayBalance(account1.movements);
+
+
 const createUserNames = function (accounts) {
   accounts.forEach(account => {
     account.username = account.owner
