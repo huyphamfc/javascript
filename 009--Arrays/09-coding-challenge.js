@@ -25,5 +25,14 @@ const calAverageHumanAge = function (dogAge) {
     const averageAge = Math.round(adultAge.reduce((sum, value, i, arr) => sum + value / arr.length, 0));
     console.log(averageAge);
 };
-
 calAverageHumanAge(dogAge);
+
+
+const calAverageHumanAge_2 = dogAge =>
+    Math.round(
+        dogAge
+            .map(value => value <= 2 ? value * 2 : value * 4 + 16)
+            .filter(value => value >= 18)
+            .reduce((avg, value, i, arr) => avg + value / arr.length, 0)
+    );
+console.log(calAverageHumanAge_2(dogAge));
