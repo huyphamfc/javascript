@@ -151,11 +151,26 @@ btnTransfer.addEventListener('click', function (e) {
     usernameReceive.movements.push(amount);
     currentAccount.movements.push(-amount);
 
+    inputTransferTo.value = inputTransferAmount.value = '';
+    inputTransferAmount.blur();
+
     updateUI(currentAccount);
   }
+});
 
-  inputTransferTo.value = inputTransferAmount.value = '';
-  inputTransferAmount.blur();
+
+btnLoan.addEventListener('click', function (e) {
+  e.preventDefault();
+
+  const amount = Number(inputLoanAmount.value);
+  if (amount > 0 && currentAccount.movements.some(mov => mov >= amount * 0.1)) {
+    currentAccount.movements.push(amount);
+  }
+
+  inputLoanAmount.value = '';
+  inputLoanAmount.blur();
+
+  updateUI(currentAccount);
 });
 
 
