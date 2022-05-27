@@ -116,8 +116,9 @@ const updateUI = function (account) {
 }
 
 
-// EVENT HANDLER
+// EVENT HANDLERS
 let currentAccount;
+
 
 btnLogin.addEventListener('click', function (e) {
   e.preventDefault();
@@ -135,6 +136,7 @@ btnLogin.addEventListener('click', function (e) {
     updateUI(currentAccount);
   }
 });
+
 
 btnTransfer.addEventListener('click', function (e) {
   e.preventDefault();
@@ -154,4 +156,22 @@ btnTransfer.addEventListener('click', function (e) {
 
   inputTransferTo.value = inputTransferAmount.value = '';
   inputTransferAmount.blur();
+});
+
+
+btnClose.addEventListener('click', function (e) {
+  e.preventDefault();
+
+  if (inputCloseUsername.value === currentAccount.username
+    && Number(inputClosePin.value) === currentAccount.pin
+  ) {
+    accounts.splice(
+      accounts.findIndex(
+        acc => acc.username === currentAccount.username
+      ), 1
+    )
+  }
+
+  inputCloseUsername.value = inputClosePin.value = '';
+  containerApp.style.opacity = '0';
 });
