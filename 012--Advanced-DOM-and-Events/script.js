@@ -15,6 +15,8 @@ const tabsContent = document.querySelectorAll('.operations__content');
 
 const nav = document.querySelector('.nav');
 
+const header = document.querySelector('.header');
+
 
 // MODAL
 const openModal = function () {
@@ -100,9 +102,34 @@ nav.addEventListener('mouseout', function (e) { handleHover(e, 1) });
 
 
 // STICKY NAVIGATION
-window.addEventListener('scroll', () => {
-  if (window.scrollY > 0)
-    nav.classList.add('sticky');
-  else
-    nav.classList.remove('sticky');
+// window.addEventListener('scroll', () => {
+//   if (window.scrollY > 0)
+//     nav.classList.add('sticky');
+//   else
+//     nav.classList.remove('sticky');
+// });
+// const obsCallback = function (entries, observer) {
+//   entries.forEach(entry => {
+//     console.log(entry);
+//   });
+// };
+// const obsOptions = {
+//   root: null,
+//   threshold: [0, 0.2]
+// };
+// const observer = new IntersectionObserver(obsCallback, obsOptions);
+// observer.observe(section1);
+const stickyNav = function (entries) {
+  const [entry] = entries;
+  if (!entry.isIntersecting) nav.classList.add('sticky');
+  else nav.classList.remove('sticky');
+};
+
+const headerObserver = new IntersectionObserver(
+  stickyNav, {
+  root: null,
+  threshold: 0,
+  rootMargin: `-${nav.getBoundingClientRect().height}px`
 });
+
+headerObserver.observe(header);
