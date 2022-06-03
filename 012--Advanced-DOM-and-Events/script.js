@@ -13,6 +13,8 @@ const tabsContainer = document.querySelector('.operations__tab-container');
 const tabs = document.querySelectorAll('.operations__tab');
 const tabsContent = document.querySelectorAll('.operations__content');
 
+const nav = document.querySelector('.nav');
+
 
 // MODAL
 const openModal = function () {
@@ -79,3 +81,19 @@ tabsContainer.addEventListener('click', function (e) {
       .classList.add('operations__content--active');
   }
 });
+
+
+// MENU FADE ANIMATION
+const handleHover = function (e, opacity) {
+  if (e.target.classList.contains('nav__link')) {
+    const link = e.target;
+    const links = link.closest('.nav__links').querySelectorAll('.nav__link');
+    links.forEach(item => {
+      if (item !== link)
+        item.style.opacity = opacity;
+    });
+  }
+}
+
+nav.addEventListener('mouseover', function (e) { handleHover(e, 0.5) });
+nav.addEventListener('mouseout', function (e) { handleHover(e, 1) });
