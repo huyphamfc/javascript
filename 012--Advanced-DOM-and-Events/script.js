@@ -97,3 +97,12 @@ const handleHover = function (e, opacity) {
 
 nav.addEventListener('mouseover', function (e) { handleHover(e, 0.5) });
 nav.addEventListener('mouseout', function (e) { handleHover(e, 1) });
+
+
+// STICKY NAVIGATION
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 0)
+    nav.classList.add('sticky');
+  else
+    nav.classList.remove('sticky');
+});
