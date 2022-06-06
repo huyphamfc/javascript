@@ -19,6 +19,8 @@ const header = document.querySelector('.header');
 
 const sections = document.querySelectorAll('.section');
 
+const imgTargets = document.querySelectorAll('img[data-src]');
+
 
 // MODAL
 const openModal = function () {
@@ -155,3 +157,24 @@ sections.forEach(section => {
   section.classList.add('section--hidden');
   sectionObserver.observe(section);
 });
+
+
+// LAZY LOADING IMAGES
+const loadImg = function (entries, observer) {
+  const [entry] = entries;
+  if (entry.isIntersecting) {
+    entry.target.src = entry.target.dataset.src;
+    entry.target.addEventListener('load', function () {
+      entry.target.classList.remove('lazy-img');
+      // only remove blurry filter once the image is loaded
+    });
+    observer.unobserve(entry.target);
+  }
+}
+
+const imgObserver = new IntersectionObserver(loadImg, {
+  root: null,
+  threshold: 0
+});
+
+imgTargets.forEach(img => imgObserver.observe(img));
