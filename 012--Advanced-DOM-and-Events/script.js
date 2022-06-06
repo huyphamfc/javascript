@@ -21,6 +21,13 @@ const sections = document.querySelectorAll('.section');
 
 const imgTargets = document.querySelectorAll('img[data-src]');
 
+const slides = document.querySelectorAll('.slide');
+let slideCurrent = 0;
+const btnLeft = document.querySelector('.slider__btn--left');
+const btnRight = document.querySelector('.slider__btn--right');
+const dotContainer = document.querySelector('.dots');
+const dots = document.querySelectorAll('.dots__dot');
+
 
 // MODAL
 const openModal = function () {
@@ -178,3 +185,43 @@ const imgObserver = new IntersectionObserver(loadImg, {
 });
 
 imgTargets.forEach(img => imgObserver.observe(img));
+
+
+// SLIDER
+const goToSlide = () => {
+  slides.forEach((slide, i) =>
+    slide.style.transform = `translateX(${100 * (i - slideCurrent)}%)`);
+  dots.forEach(dot => dot.classList.remove('dots__dot--active'));
+  document
+    .querySelector(`.dots__dot[data-slide="${slideCurrent}"]`)
+    .classList.add('dots__dot--active');
+}
+
+const prevSlide = () => {
+  if (slideCurrent > 0) slideCurrent--;
+  else slideCurrent = slides.length - 1;
+  goToSlide();
+}
+
+const nextSlide = () => {
+  if (slideCurrent < slides.length - 1) slideCurrent++;
+  else slideCurrent = 0;
+  goToSlide();
+}
+
+goToSlide();
+
+btnLeft.addEventListener('click', prevSlide);
+btnRight.addEventListener('click', nextSlide);
+
+document.addEventListener('keydown', function (e) {
+  if (e.key === 'ArrowLeft') prevSlide();
+  if (e.key === 'ArrowRight') nextSlide();
+});
+
+dotContainer.addEventListener('click', function (e) {
+  if (e.target.classList.contains('dots__dot')) {
+    slideCurrent = e.target.dataset.slide;
+    goToSlide();
+  }
+});
