@@ -18,17 +18,30 @@ if (navigator.geolocation) {
         function (position) {
             const { latitude } = position.coords;
             const { longitude } = position.coords;
-            console.log(`${latitude}, ${longitude}`);
 
             var map = L.map('map').setView([latitude, longitude], 10);
             L.tileLayer(
                 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             }).addTo(map);
-            L.marker([latitude, longitude])
-                .addTo(map)
-                .bindPopup('A pretty CSS3 popup.<br> Easily customizable.')
-                .openPopup();
+
+            map.on('click', function (mapEvent) {
+                const { lat, lng } = mapEvent.latlng;
+                L
+                    .marker([lat, lng])
+                    .addTo(map)
+                    .bindPopup(
+                        L.popup({
+                            maxWidth: 250,
+                            minWidth: 100,
+                            autoClose: false,
+                            closeOnClick: false,
+                            className: 'running-popup'
+                        })
+                    )
+                    .setPopupContent('Workout')
+                    .openPopup();
+            });
         },
         function () {
             alert('Could NOT get your position');
