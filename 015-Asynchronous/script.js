@@ -44,4 +44,11 @@ const getCountryAndNeighbor = function (country) {
     });
 }
 
-getCountryAndNeighbor('USA');
+const getCountryDataPromise = function (country) {
+    fetch(`https://restcountries.com/v3.1/name/${country}`)
+        // read data from the response
+        .then(response => response.json()) // a new promise        
+        .then(data => render(...data));
+}
+
+getCountryDataPromise('VN');
