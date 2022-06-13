@@ -48,7 +48,14 @@ const getCountryDataPromise = function (country) {
     fetch(`https://restcountries.com/v3.1/name/${country}`)
         // read data from the response
         .then(response => response.json()) // a new promise        
-        .then(data => render(...data));
+        .then(data => {
+            render(...data);
+            const neighbor = data[0].borders?.[0];
+            if (!neighbor) return;
+            return fetch(`https://restcountries.com/v3.1/name/${neighbor}`);
+        })
+        .then(response => response.json())
+        .then(data => render(data));
 }
 
 getCountryDataPromise('VN');
