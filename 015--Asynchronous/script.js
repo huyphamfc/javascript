@@ -21,6 +21,11 @@ const render = function (data) {
     countriesContainer.style.opacity = '1';
 }
 
+const renderError = function (message) {
+    countriesContainer.insertAdjacentText('beforeend', message);
+    countriesContainer.style.opacity = '1';
+}
+
 const getCountryData = function (country) {
     const request = new XMLHttpRequest();
     request.open('GET', `https://restcountries.com/v3.1/name/${country}`);
@@ -55,7 +60,8 @@ const getCountryDataPromise = function (country) {
             return fetch(`https://restcountries.com/v3.1/name/${neighbor}`);
         })
         .then(response => response.json())
-        .then(data => render(data));
+        .then(data => render(data))
+        .catch(error => renderError(`Something went wrong. ${error.message}. Try again!`));
 }
 
-getCountryDataPromise('VN');
+btn.addEventListener('click', function () { getCountryDataPromise('VN') });
