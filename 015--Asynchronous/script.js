@@ -26,6 +26,13 @@ const renderError = function (message) {
     countriesContainer.style.opacity = '1';
 }
 
+const getJSON = function (url, message = 'Something went wrong.') {
+    return fetch(url).then(response => {
+        if (!response.ok) throw new Error(`${message} Country not found ${response.status}`);
+        return response.json();
+    });
+}
+
 const getCountryData = function (country) {
     const request = new XMLHttpRequest();
     request.open('GET', `https://restcountries.com/v3.1/name/${country}`);
@@ -50,18 +57,15 @@ const getCountryAndNeighbor = function (country) {
 }
 
 const getCountryDataPromise = function (country) {
-    fetch(`https://restcountries.com/v3.1/name/${country}`)
-        // read data from the response
-        .then(response => response.json()) // a new promise        
+    getJSON(`https://restcountries.com/v3.1/name/${country}`, 'Country not found.')
         .then(data => {
             render(...data);
             const neighbor = data[0].borders?.[0];
-            if (!neighbor) return;
-            return fetch(`https://restcountries.com/v3.1/name/${neighbor}`);
+            if (!neighbor) throw new Error('No neighbor found');
+            return getJSON(`https://restcountries.com/v3.1/name/${neighbor}`, 'Country not found.');
         })
-        .then(response => response.json())
         .then(data => render(data))
         .catch(error => renderError(`Something went wrong. ${error.message}. Try again!`));
 }
 
-btn.addEventListener('click', function () { getCountryDataPromise('VN') });
+btn.addEventListener('click', function () { getCountryDataPromise('australia') });
