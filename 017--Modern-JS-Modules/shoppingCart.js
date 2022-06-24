@@ -4,6 +4,12 @@
 console.log('Exporting Module');
 
 
+// Blocking Code
+console.log('Start fetching users');
+await fetch(`https://jsonplaceholder.typicode.com/posts`);
+console.log('Finish fetching users');
+
+
 const shippingCost = 10;
 const cart = [];
 const totalPrice = 237;
