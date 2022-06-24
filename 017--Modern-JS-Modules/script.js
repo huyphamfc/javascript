@@ -39,26 +39,36 @@ console.log('Importing Module');
 // console.log(lastPost);
 
 
-const ShoppingCart = (function () {
-    const cart = [];
-    const shippingCost = 10;
-    const totalPrice = 237;
-    const totalQuantity = 23;
+// const ShoppingCart = (function () {
+//     const cart = [];
+//     const shippingCost = 10;
+//     const totalPrice = 237;
+//     const totalQuantity = 23;
 
-    const addToCart = function (product, quantity) {
-        cart.push({ product, quantity });
-        console.log(`${quantity} ${product}(s) added to cart`);
-    }
-    const orderStock = function (product, quantity) {
-        cart.push({ product, quantity });
-        console.log(`${quantity} ${product}(s) added to cart`);
-    }
+//     const addToCart = function (product, quantity) {
+//         cart.push({ product, quantity });
+//         console.log(`${quantity} ${product}(s) added to cart`);
+//     }
+//     const orderStock = function (product, quantity) {
+//         cart.push({ product, quantity });
+//         console.log(`${quantity} ${product}(s) added to cart`);
+//     }
 
-    return {
-        addToCart,
-        cart,
-        totalPrice,
-        totalQuantity
-    }
-})();
-ShoppingCart.addToCart('iPhone', 99);
+//     return {
+//         addToCart,
+//         cart,
+//         totalPrice,
+//         totalQuantity
+//     }
+// })();
+// ShoppingCart.addToCart('iPhone', 99);
+
+
+// Export
+export.addToCart = function (product, quantity) {
+    cart.push({ product, quantity });
+    console.log(`${quantity} ${product}(s) added to cart`);
+}
+
+// Import
+const { addToCart } = require('./shoppingCart.js');
