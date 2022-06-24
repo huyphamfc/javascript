@@ -76,6 +76,10 @@ console.log('Importing Module');
 
 import cloneDeep from 'lodash-es';
 
+
+import 'core-js/stable'
+
+
 const state = {
     cart: [
         { product: 'iPhone', quantity: 9 },
