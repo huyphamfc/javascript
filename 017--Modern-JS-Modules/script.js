@@ -64,11 +64,30 @@ console.log('Importing Module');
 // ShoppingCart.addToCart('iPhone', 99);
 
 
-// Export
-export.addToCart = function (product, quantity) {
-    cart.push({ product, quantity });
-    console.log(`${quantity} ${product}(s) added to cart`);
+// // Export
+// export.addToCart = function (product, quantity) {
+//     cart.push({ product, quantity });
+//     console.log(`${quantity} ${product}(s) added to cart`);
+// }
+
+// // Import
+// const { addToCart } = require('./shoppingCart.js');
+
+
+import cloneDeep from './node_modules/lodash-es/cloneDeep.js';
+
+const state = {
+    cart: [
+        { product: 'iPhone', quantity: 9 },
+        { product: 'iPad', quantity: 6 }
+    ],
+    user: { loggedIn: true }
 }
 
-// Import
-const { addToCart } = require('./shoppingCart.js');
+const stateClone = Object.assign({}, state);
+const stateDeepClone = cloneDeep(state);
+
+state.user.loggedIn = false;
+
+console.log(stateClone);
+console.log(stateDeepClone);
