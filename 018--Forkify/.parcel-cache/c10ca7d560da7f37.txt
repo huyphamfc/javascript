@@ -1,14 +1,15 @@
-7545
-60/home/huyphamfc/Desktop/javascript/018--Forkify/package.json1656833118381191444 0
-70/home/huyphamfc/Desktop/javascript/018--Forkify/dist/index.e37f48ea.js1656903061596937073 0
+7558
+60/home/huyphamfc/Desktop/javascript/018--Forkify/package.json1656922466516357985 0
+70/home/huyphamfc/Desktop/javascript/018--Forkify/dist/index.e37f48ea.js1656923548861999306 0
 74/home/huyphamfc/Desktop/javascript/018--Forkify/dist/index.62406edb.js.map1656833118377191087 0
-70/home/huyphamfc/Desktop/javascript/018--Forkify/dist/logo.726d37a8.png1656837893519645507 0
-73/home/huyphamfc/Desktop/javascript/018--Forkify/dist/favicon.8b2f57bf.png1656837893471645558 0
-75/home/huyphamfc/Desktop/javascript/018--Forkify/dist/index.f7626f62.css.map1656837893519645507 0
-71/home/huyphamfc/Desktop/javascript/018--Forkify/dist/index.f7626f62.css1656837893471645558 0
-74/home/huyphamfc/Desktop/javascript/018--Forkify/dist/index.e37f48ea.js.map1656903061604936114 0
-68/home/huyphamfc/Desktop/javascript/018--Forkify/src/js/controller.js1656903061348966797 0
-54/home/huyphamfc/Desktop/javascript/018--Forkify/src/js1656833118401193226 1
+70/home/huyphamfc/Desktop/javascript/018--Forkify/dist/logo.726d37a8.png1656923368962449106 0
+73/home/huyphamfc/Desktop/javascript/018--Forkify/dist/favicon.8b2f57bf.png1656923368962449106 0
+75/home/huyphamfc/Desktop/javascript/018--Forkify/dist/index.f7626f62.css.map1656923368930448498 0
+71/home/huyphamfc/Desktop/javascript/018--Forkify/dist/index.f7626f62.css1656923368922448345 0
+74/home/huyphamfc/Desktop/javascript/018--Forkify/dist/index.e37f48ea.js.map1656923548869999469 0
+68/home/huyphamfc/Desktop/javascript/018--Forkify/src/js/controller.js1656921619950611398 0
+74/home/huyphamfc/Desktop/javascript/018--Forkify/src/js/views/recipeView.js1656923548593993849 0
+54/home/huyphamfc/Desktop/javascript/018--Forkify/src/js1656917271921578817 1
 87/home/huyphamfc/Desktop/javascript/018--Forkify/src/img/architecture-recipe-loading.png1656833118385191800 0
 76/home/huyphamfc/Desktop/javascript/018--Forkify/src/img/flowchart-part-2.png1656833118393192513 0
 65/home/huyphamfc/Desktop/javascript/018--Forkify/src/img/icons.svg1656833118401193226 0
@@ -72,7 +73,7 @@
 94/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/domelementtype/lib/esm/index.d.ts1656837875207665454 0
 92/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/domelementtype/lib/esm/index.js1656837874855665841 0
 83/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/domelementtype/LICENSE1656837873487667341 0
-71/home/huyphamfc/Desktop/javascript/018--Forkify/dist/icons.21bad73c.svg1656837893475645554 0
+71/home/huyphamfc/Desktop/javascript/018--Forkify/dist/icons.21bad73c.svg1656923368926448421 0
 81/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/globals/globals.json1656837874879665814 0
 81/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/globals/package.json1656837874911665779 0
 77/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/globals/index.js1656837873507667319 0
@@ -747,7 +748,7 @@
 107/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@parcel/hash/parcel-hash.linux-arm64-musl.node1656837876123664451 0
 82/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@parcel/hash/index.js1656837874859665836 0
 73/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@parcel/hash1656837876351664201 1
-68/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@parcel1656837881251658842 1
+68/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@parcel1656922466412358273 1
 81/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/path-type/index.d.ts1656837873499667328 0
 83/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/path-type/package.json1656837873487667341 0
 78/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/path-type/license1656837874855665841 0
@@ -890,7 +891,7 @@
 66/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/chalk1656837875039665639 1
 81/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/glob-parent/index.js1656837874871665823 0
 80/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/glob-parent/LICENSE1656837874855665841 0
-71/home/huyphamfc/Desktop/javascript/018--Forkify/dist/icons.dfd7a6db.svg1656837893475645554 0
+71/home/huyphamfc/Desktop/javascript/018--Forkify/dist/icons.dfd7a6db.svg1656923368926448421 0
 85/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/glob-parent/CHANGELOG.md1656837874979665705 0
 72/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/glob-parent1656837875027665652 1
 156/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/side-effects-package-redirect-down/foo/bar1656837876743663772 1
@@ -1507,16 +1508,12 @@
 78/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/es/object1656837879439660821 1
 76/home/huyphamfc/Desktop/javascript/018--Forkify/src/sass/_searchResults.scss1656833118401193226 0
 91/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/es/typed-array/keys.js1656837878575661766 0
-92/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/regions/ML.js1656837877231663237 0
-89/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@parcel/workers/lib/child.js1656837875039665639 0
-89/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/color-convert/conversions.js1656837874855665841 0
-104/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/features/readonly-attr.js1656837877359663097 0
-91/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/internals/iterators.js1656837878547661797 0
-77/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/readdirp/LICENSE1656837874871665823 0
-97/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/full/typed-array/index-of.js1656837878263662107 0
-93/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/internals/classof-raw.js1656837876827663679 0
-107/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/internals/array-iteration-from-last.js1656837876247664315 0
-105/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/features/form-attribute.js1656837876995663495 0
+97/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@parcel/codeframe/test/fixtures/a.js1656837874859665836 0
+96/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/es/typed-array/to-string.js1656837879295660979 0
+101/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@parcel/watcher/src/windows/win_utils.hh1656837875799664805 0
+98/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/es/typed-array/uint8-array.js1656837879387660878 0
+91/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/es/typed-array/some.js1656837879031661267 0
+94/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/es/typed-array/reverse.js1656837878927661381 0
 100/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/internals/get-async-iterator.js1656837878083662304 0
 94/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/css-select/lib/procedure.d.ts.map1656837875655664963 0
 99/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/actual/instance/replace-all.js1656837878899661412 0
@@ -1536,7 +1533,7 @@
 95/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@parcel/core/src/ReporterRunner.js1656837876571663960 0
 103/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/internals/collection-delete-all.js1656837876887663614 0
 95/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/internals/a-constructor.js1656837875171665494 0
-63/home/huyphamfc/Desktop/javascript/018--Forkify/dist/index.html1656901520790678954 0
+63/home/huyphamfc/Desktop/javascript/018--Forkify/dist/index.html1656923368922448345 0
 99/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/features/wai-aria.js1656837877583662852 0
 118/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@parcel/runtime-js/lib/helpers/browser/import-polyfill.js1656837875679664937 0
 97/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/modules/es.array.is-array.js1656837877235663233 0
@@ -1548,8 +1545,8 @@
 97/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/modules/es.array.index-of.js1656837877231663237 0
 92/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/internals/array-with.js1656837876331664223 0
 99/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/internals/engine-user-agent.js1656837877167663307 0
-92/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/internals/shared-key.js1656837878995661307 0
 73/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/yaml/LICENSE1656837873483667346 0
+92/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/internals/shared-key.js1656837878995661307 0
 95/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/internals/native-symbol.js1656837878715661613 0
 100/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/proposals/string-code-points.js1656837879107661184 0
 98/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/actual/instance/trim-right.js1656837879323660948 0
@@ -1617,8 +1614,6 @@
 86/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/utility-types/SECURITY.md1656837875295665358 0
 91/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@parcel/core/src/assetUtils.js1656837875951664639 0
 87/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/actual/array/of.js1656837878747661578 0
-98/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/utility-types/dist/utility-types.d.ts1656837875527665104 0
-92/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/full/iterator/reduce.js1656837878871661442 0
 89/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/es/instance/slice.js1656837879007661294 0
 90/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/utility-types/dist/index.d.ts1656837875443665196 0
 93/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/lmdb/dependencies/lmdb/libraries1656837874995665687 1
@@ -1646,6 +1641,10 @@
 80/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/term-size/readme.md1656837875283665371 0
 81/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/term-size/index.d.ts1656837875307665345 0
 70/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/term-size1656837875283665371 1
+98/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/utility-types/dist/utility-types.d.ts1656837875527665104 0
+92/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/full/iterator/reduce.js1656837878871661442 0
+80/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/fractional/releases1656922466356358427 1
+87/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/fractional/array_mixins.js1656922466340358472 0
 101/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/features/filesystem.js1656837876971663522 0
 97/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/css-tree/lib/syntax/node/Selector.js1656837876523664012 0
 95/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/stable/array/find-index.js1656837877839662571 0
@@ -1696,6 +1695,8 @@
 78/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/commander/esm.mjs1656837875235665424 0
 98/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/stable/array/virtual/slice.js1656837879019661281 0
 75/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/node-addon-api1656837875775664832 1
+87/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/binary-extensions/index.js1656837874959665727 0
+79/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/lmdb/node-index.js1656837876667663854 0
 100/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/actual/string/virtual/repeat.js1656837878891661420 0
 98/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/es/number/virtual/to-fixed.js1656837879195661088 0
 98/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/actual/string/virtual/trim.js1656837879347660922 0
@@ -1839,6 +1840,9 @@
 106/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/features/custom-elements.js1656837876871663631 0
 93/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/internals/whitespaces.js1656837879467660791 0
 101/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/features/symbol/pattern-match.js1656837878803661517 0
+96/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/fractional/releases/fraction-0.2.js1656922466356358427 0
+80/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/lmdb/src/writer.cpp1656837876499664039 0
+111/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/htmlnano/lib/modules/deduplicateAttributeValues.js1656837875203665459 0
 100/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/modules/esnext.string.cooked.js1656837877683662742 0
 75/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/weak-lru-cache1656837875131665538 1
 85/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/ansi-styles/package.json1656837874771665933 0
@@ -2029,6 +2033,7 @@
 93/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@jridgewell/source-map/README.md1656837875439665200 0
 88/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@lezer/common/dist/mix.d.ts1656837875271665384 0
 89/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@lezer/common/dist/tree.d.ts1656837875323665328 0
+82/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/fractional/index.html1656922466352358439 0
 95/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/full/number/parse-float.js1656837878799661521 0
 84/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@lezer/common/README.md1656837875215665446 0
 92/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/internals/string-pad.js1656837879111661180 0
@@ -2105,6 +2110,7 @@
 93/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/modules/es.math.acosh.js1656837877275663189 0
 92/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/features/string/bold.js1656837876771663741 0
 97/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@swc/helpers/src/_inherits_loose.mjs1656837876331664223 0
+80/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/fractional/tests.js1656922466352358439 0
 110/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@swc/helpers/src/_possible_constructor_return.mjs1656837876403664144 0
 102/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/features/string/virtual/strike.js1656837879103661189 0
 101/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@parcel/reporter-cli/src/bundleReport.js1656837874775665928 0
@@ -2334,7 +2340,7 @@
 95/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/features/weak-map/index.js1656837878351662011 0
 103/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@lmdb/lmdb-linux-x64/node.abi102.musl.node1656837876035664547 0
 81/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@lmdb/lmdb-linux-x641656837876771663741 1
-66/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@lmdb1656837881251658842 1
+66/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@lmdb1656922466412358273 1
 96/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/csso/lib/replace/property/border.js1656837875599665025 0
 71/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/terser/bin1656837876363664187 1
 99/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/features/typed-array/filter.js1656837877819662594 0
@@ -2354,6 +2360,9 @@
 80/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/readdirp/index.d.ts1656837875199665463 0
 78/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/readdirp/index.js1656837875027665652 0
 103/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/internals/engine-webkit-version.js1656837877167663307 0
+77/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/readdirp/LICENSE1656837874871665823 0
+91/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/internals/iterators.js1656837878547661797 0
+97/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/full/typed-array/index-of.js1656837878263662107 0
 82/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/terser/tools/exit.cjs1656837874971665713 0
 100/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@parcel/transformer-babel/lib/config.js1656837875159665507 0
 78/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/terser/bin/terser1656837874859665836 0
@@ -2371,7 +2380,6 @@
 114/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@parcel/transformer-postcss/src/PostCSSTransformer.js1656837875243665415 0
 77/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/terser/lib/utils1656837876123664451 1
 90/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/terser/lib/compress/common.js1656837875979664609 0
-99/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/features/download.js1656837876927663570 0
 116/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/features/reflect/get-own-property-descriptor.js1656837878103662282 0
 102/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/modules/esnext.aggregate-error.js1656837877527662913 0
 86/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/es/array/every.js1656837877719662703 0
@@ -2492,8 +2500,6 @@
 94/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/modules/es.array.every.js1656837877219663250 0
 108/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/features/array/virtual/last-index-of.js1656837878591661749 0
 85/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/lmdb/src/compression.cpp1656837876439664104 0
-80/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/lmdb/src/writer.cpp1656837876499664039 0
-111/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/htmlnano/lib/modules/deduplicateAttributeValues.js1656837875203665459 0
 150/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/package-browser-exclude/package.json1656837876671663850 0
 81/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/package.json1656837879479660778 0
 105/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/features/set/symmetric-difference.js1656837879155661132 0
@@ -2757,6 +2763,8 @@
 90/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/type-fest/source/mutable.d.ts1656837875591665034 0
 87/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/csso/lib/replace/Atrule.js1656837875467665170 0
 98/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/modules/esnext.promise.any.js1656837877659662768 0
+105/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/features/form-attribute.js1656837876995663495 0
+107/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/internals/array-iteration-from-last.js1656837876247664315 0
 103/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/posthtml-parser/dist/location-tracker.d.ts1656837875203665459 0
 73/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/htmlnano/lib1656837875307665345 1
 95/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/features/string/replace.js1656837878919661390 0
@@ -2962,6 +2970,9 @@
 112/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/features/css-media-interaction.js1656837876683663837 0
 86/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/sass/sass.default.dart.js1656837876795663714 0
 102/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/full/dom-exception/constructor.js1656837876963663530 0
+100/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/es/typed-array/float64-array.js1656837877983662414 0
+101/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/type-fest/source/fixed-length-array.d.ts1656837875407665236 0
+101/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/features/es6-module.js1656837876947663548 0
 104/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/features/vector-effect.js1656837877563662873 0
 118/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@parcel/core/test/fixtures/invalid-target-source-not-file1656837876855663648 1
 92/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/regions/FO.js1656837876979663513 0
@@ -3036,7 +3047,6 @@
 71/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/nullthrows1656837874883665810 1
 108/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/features/css-initial-value.js1656837876667663854 0
 79/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/yaml/browser/types1656837875947664643 1
-94/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/es/typed-array/reverse.js1656837878927661381 0
 98/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/features/netinfo.js1656837877263663202 0
 101/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/modules/esnext.iterator.every.js1656837877603662830 0
 88/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/source-map/lib/array-set.js1656837875023665656 0
@@ -3080,7 +3090,6 @@
 80/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/stable/package.json1656837873483667346 0
 99/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/features/fontface.js1656837876991663500 0
 96/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/internals/engine-is-node.js1656837877163663311 0
-88/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/full/instance/at.js1656837876595663934 0
 92/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/regions/AU.js1656837875975664613 0
 75/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/to-regex-range1656837875139665529 1
 99/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/dist/unpacker/browsers.js1656837876203664363 0
@@ -3131,6 +3140,8 @@
 92/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/regions/MZ.js1656837877259663206 0
 104/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/features/trusted-types.js1656837877519662922 0
 93/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/yaml/dist/resolveSeq-d03cb037.js1656837875859664740 0
+88/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/full/instance/at.js1656837876595663934 0
+81/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/fractional/README.md1656922466340358472 0
 73/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/svgo/plugins1656837876107664468 1
 109/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@parcel/core/src/requests/WriteBundlesRequest.js1656837876771663741 0
 100/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/features/async-iterator/some.js1656837879035661263 0
@@ -3407,8 +3418,6 @@
 92/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/regions/MN.js1656837877235663233 0
 86/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/weak-lru-cache/index.d.ts1656837875163665503 0
 87/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/entities/lib/maps/xml.json1656837875519665112 0
-90/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/features/string/at.js1656837876571663960 0
-94/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/features/sni.js1656837877431663018 0
 96/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/full/string/virtual/bold.js1656837876783663728 0
 90/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/es/instance/filter.js1656837877811662602 0
 80/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/full/object1656837879443660817 1
@@ -3477,8 +3486,6 @@
 110/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/features/es6-string-includes.js1656837876955663539 0
 95/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/cosmiconfig/dist/ExplorerBase.d.ts1656837875783664823 0
 92/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/internals/array-fill.js1656837876143664429 0
-87/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/binary-extensions/index.js1656837874959665727 0
-79/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/lmdb/node-index.js1656837876667663854 0
 71/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/yaml/types1656837875951664639 1
 102/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/features/textencoder.js1656837877495662948 0
 103/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@parcel/core/lib/requests/DevDepRequest.js1656837876151664420 0
@@ -3538,8 +3545,6 @@
 81/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/posthtml-render/dist1656837875059665617 1
 113/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/features/form-submit-attributes.js1656837876999663491 0
 99/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/entities/lib/decode_codepoint.d.ts.map1656837875535665095 0
-112/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/internals/check-correctness-of-iteration.js1656837876823663684 0
-94/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/features/eot.js1656837876935663561 0
 94/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/htmlnano/docs/docs/040-presets.md1656837876191664376 0
 91/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/features/string/sup.js1656837879151661136 0
 100/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/htmlnano/lib/modules/removeUnusedCss.js1656837875731664880 0
@@ -3712,6 +3717,8 @@
 107/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/dom-serializer/node_modules/entities/readme.md1656837875475665161 0
 92/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/regions/SC.js1656837877391663062 0
 97/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/modules/es.typed-array.at.js1656837877467662979 0
+99/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/features/download.js1656837876927663570 0
+96/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/fractional/releases/fraction-0.1.js1656922466356358427 0
 86/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/es/regexp/test.js1656837879171661114 0
 82/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/yaml/browser/types.js1656837875959664630 0
 104/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/features/number/min-safe-integer.js1656837878707661622 0
@@ -3866,9 +3873,6 @@
 88/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/lmdb/src/ordered-binary.cpp1656837876479664060 0
 104/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@babel/highlight/node_modules/chalk/license1656837874859665836 0
 73/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/yaml/pair.js1656837875575665051 0
-88/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/internals/export.js1656837877779662637 0
-73/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/posthtml/lib1656837873555667267 1
-91/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/features/date/index.js1656837878335662029 0
 72/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/yaml/seq.js1656837875927664665 0
 104/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/features/selection-api.js1656837877399663053 0
 86/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/es/object/seal.js1656837878947661360 0
@@ -4315,7 +4319,7 @@
 100/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/full/object/set-prototype-of.js1656837878975661328 0
 108/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/features/css-logical-props.js1656837876675663846 0
 89/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@parcel/utils/src/urlJoin.js1656837876323664231 0
-78/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@msgpackr-extract1656837881251658842 1
+78/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@msgpackr-extract1656922466412358273 1
 106/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/features/x-frame-options.js1656837877627662803 0
 99/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/features/testfeat.js1656837877483662961 0
 91/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/actual/regexp/match.js1656837878671661661 0
@@ -4355,8 +4359,8 @@
 99/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/features/minmaxwh.js1656837877231663237 0
 92/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/regions/MK.js1656837877231663237 0
 135/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/@scope/pkg/foo/bar.js1656837875211665450 0
-111/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/features/css-text-orientation.js1656837876827663679 0
 95/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/es/typed-array/iterator.js1656837878531661815 0
+111/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/features/css-text-orientation.js1656837876827663679 0
 100/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/full/typed-array/copy-within.js1656837876999663491 0
 89/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/stable/array/from.js1656837878063662326 0
 92/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/regions/AM.js1656837875859664740 0
@@ -4413,6 +4417,11 @@
 96/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/full/array/filter-reject.js1656837877803662611 0
 92/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/regions/HN.js1656837877067663417 0
 101/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/actual/function/virtual/index.js1656837878271662099 0
+89/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@parcel/workers/lib/child.js1656837875039665639 0
+89/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/color-convert/conversions.js1656837874855665841 0
+104/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/features/readonly-attr.js1656837877359663097 0
+94/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/features/eot.js1656837876935663561 0
+112/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/internals/check-correctness-of-iteration.js1656837876823663684 0
 96/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/features/asmjs.js1656837875939664652 0
 99/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/es/instance/find-last-index.js1656837877851662558 0
 95/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/stable/instance/unshift.js1656837879419660843 0
@@ -4450,7 +4459,7 @@
 101/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@parcel/transformer-js/lib/loadNative.js1656837875291665362 0
 112/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/features/css-image-orientation.js1656837876659663864 0
 97/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/features/weak-set/add-all.js1656837875731664880 0
-60/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules1656837881851658187 1
+60/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules1656922466412358273 1
 90/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/actual/object/keys.js1656837878571661771 0
 92/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/regions/MV.js1656837877251663215 0
 92/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@parcel/utils/src/objectHash.js1656837876167664402 0
@@ -4528,7 +4537,6 @@
 82/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/posthtml/lib/index.js1656837874855665841 0
 85/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/nullthrows/nullthrows.js1656837874855665841 0
 92/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/regions/YT.js1656837877631662799 0
-106/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/internals/async-iterator-iteration.js1656837876467664074 0
 72/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/is-arrayish1656837874947665739 1
 92/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/regions/MO.js1656837877235663233 0
 105/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@swc/helpers/lib/_class_private_field_set.js1656837875627664994 0
@@ -4600,6 +4608,7 @@
 87/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/svgo/plugins/reusePaths.js1656837876103664473 0
 106/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/modules/esnext.weak-map.delete-all.js1656837877715662707 0
 93/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/features/string/split.js1656837879067661228 0
+92/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/regions/ML.js1656837877231663237 0
 100/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/internals/date-to-iso-string.js1656837877035663451 0
 92/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/regions/KH.js1656837877155663320 0
 105/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@swc/helpers/lib/_tagged_template_literal.js1656837876007664577 0
@@ -4625,7 +4634,6 @@
 86/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/import-fresh/package.json1656837873555667267 0
 123/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/dom-serializer/node_modules/entities/lib/decode_codepoint.d.ts1656837875507665126 0
 91/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/modules/es.date.now.js1656837877259663206 0
-95/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/internals/try-to-string.js1656837879363660904 0
 93/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@parcel/optimizer-terser/LICENSE1656837873491667337 0
 83/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/svgo/lib/svgo/jsAPI.js1656837875859664740 0
 98/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/stable/instance/trim-start.js1656837879343660926 0
@@ -4659,6 +4667,7 @@
 95/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@jridgewell/set-array/package.json1656837875063665612 0
 92/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/regions/ET.js1656837876955663539 0
 92/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/regions/UY.js1656837877559662878 0
+64/home/huyphamfc/Desktop/javascript/018--Forkify/src/js/module.js1656918514470293671 0
 92/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/posthtml-render/dist/index.d.ts1656837875099665573 0
 96/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/regions/alt-an.js1656837875763664845 0
 93/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/features/number/index.js1656837878339662024 0
@@ -4949,6 +4958,14 @@
 82/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/stable/regexp1656837879307660966 1
 105/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/lmdb/node_modules/node-addon-api/except.gypi1656837874859665836 0
 103/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/actual/reflect/set-prototype-of.js1656837878971661333 0
+106/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/internals/async-iterator-iteration.js1656837876467664074 0
+95/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/internals/try-to-string.js1656837879363660904 0
+73/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/posthtml/lib1656837873555667267 1
+91/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/features/date/index.js1656837878335662029 0
+88/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/internals/export.js1656837877779662637 0
+93/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/internals/classof-raw.js1656837876827663679 0
+94/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/features/sni.js1656837877431663018 0
+90/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/features/string/at.js1656837876571663960 0
 137/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@parcel/node-resolver-core/test/fixture/node_modules/@scope/pkg/package.json1656837876643663881 0
 93/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/nth-check/lib/esm/index.d.ts.map1656837875307665345 0
 106/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/internals/delete-property-or-throw.js1656837877095663386 0
@@ -5104,17 +5121,14 @@
 81/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/stage/pre.js1656837878807661513 0
 95/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/svgo/plugins/removeStyleElement.js1656837876063664517 0
 79/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/stage/4.js1656837875055665621 0
-101/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/type-fest/source/fixed-length-array.d.ts1656837875407665236 0
-101/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/features/es6-module.js1656837876947663548 0
-100/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/es/typed-array/float64-array.js1656837877983662414 0
 69/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/readdirp1656837875167665498 1
 79/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/stage/0.js1656837874899665793 0
 89/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/web/dom-exception.js1656837877119663359 0
 100/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@parcel/transformer-babel/src/config.js1656837875183665481 0
 91/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/stable/string/blink.js1656837876759663754 0
 81/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/web/index.js1656837878411661946 0
-101/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/modules/es.symbol.unscopables.js1656837877467662979 0
 90/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/es/typed-array/set.js1656837878991661311 0
+101/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/modules/es.symbol.unscopables.js1656837877467662979 0
 82/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/web/README.md1656837879487660769 0
 97/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/stable/array/virtual/some.js1656837879043661255 0
 102/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/features/array/virtual/reverse.js1656837878927661381 0
@@ -5315,7 +5329,7 @@
 103/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/modules/es.object.lookup-getter.js1656837877335663123 0
 88/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/stable/array-buffer1656837879015661285 1
 88/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/full/set-timeout.js1656837878979661324 0
-65/home/huyphamfc/Desktop/javascript/018--Forkify/package-lock.json1656837881723658327 0
+65/home/huyphamfc/Desktop/javascript/018--Forkify/package-lock.json1656922466592357776 0
 93/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/stable/object/has-own.js1656837878171662208 0
 78/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/binary-extensions1656837875183665481 1
 106/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/features/css-text-indent.js1656837876823663684 0
@@ -5728,6 +5742,7 @@
 93/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/features/string/fixed.js1656837877907662497 0
 94/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/features/iterator/take.js1656837879159661128 0
 106/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@parcel/transformer-raw/lib/RawTransformer.js1656837874775665928 0
+71/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/fractional1656922466352358439 1
 106/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/full/array/virtual/group-by-to-map.js1656837878147662234 0
 95/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/full/array/virtual/with.js1656837879479660778 0
 91/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/full/array/flat-map.js1656837877927662475 0
@@ -5958,7 +5973,7 @@
 99/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/actual/object/define-setter.js1656837877075663408 0
 96/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/features/error/to-string.js1656837879299660974 0
 92/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/es/typed-array/every.js1656837877723662698 0
-52/home/huyphamfc/Desktop/javascript/018--Forkify/dist1656903061604936114 1
+52/home/huyphamfc/Desktop/javascript/018--Forkify/dist1656923548869999469 1
 112/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/modules/esnext.typed-array.filter-reject.js1656837877699662725 0
 88/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@lezer/common/dist/index.js1656837875163665503 0
 104/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/features/typed-array/int32-array.js1656837878419661937 0
@@ -6376,6 +6391,7 @@
 92/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/actual/instance/some.js1656837879031661267 0
 95/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/stable/string/fontcolor.js1656837877991662405 0
 85/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/actual/escape.js1656837877523662917 0
+80/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/fractional/index.js1656922466348358450 0
 80/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/actual/json1656837879271661005 1
 93/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/actual/json/stringify.js1656837879119661171 0
 96/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/regions/alt-eu.js1656837875799664805 0
@@ -6485,6 +6501,7 @@
 92/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/actual/promise/index.js1656837878275662095 0
 90/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/actual/promise/any.js1656837876063664517 0
 90/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/actual/error/index.js1656837878267662103 0
+84/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/fractional/package.json1656922466320358526 0
 92/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/full/string/iterator.js1656837878539661805 0
 96/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/actual/error/constructor.js1656837876935663561 0
 94/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/actual/error/to-string.js1656837879291660983 0
@@ -6874,7 +6891,7 @@
 89/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/features/set/join.js1656837878551661793 0
 113/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/caniuse-lite/data/features/prefers-reduced-motion.js1656837877335663123 0
 97/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/features/set/is-subset-of.js1656837878479661871 0
-79/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/.package-lock.json1656837881855658183 0
+79/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/.package-lock.json1656922466676357544 0
 90/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/features/set/every.js1656837877751662668 0
 84/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@parcel/fs/package.json1656837875527665104 0
 80/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/type-fest/base.d.ts1656837875023665656 0
@@ -7236,6 +7253,7 @@
 94/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@parcel/transformer-image/LICENSE1656837873487667341 0
 82/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/features/math1656837879391660874 1
 90/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/features/math/sign.js1656837878995661307 0
+60/home/huyphamfc/Desktop/javascript/018--Forkify/src/js/views1656917284398018453 1
 101/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/features/typed-array/for-each.js1656837878007662387 0
 91/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/features/math/scale.js1656837878943661364 0
 90/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/features/math/tanh.js1656837879159661128 0
@@ -7404,8 +7422,8 @@
 98/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/modules/es.symbol.iterator.js1656837877459662987 0
 93/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/stable/symbol/key-for.js1656837878567661775 0
 91/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/stable/symbol/match.js1656837878679661652 0
-97/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/internals/collection-from.js1656837876891663609 0
 103/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/.bin/node-gyp-build-optional-packages-test1656837880371659803 0
+97/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/internals/collection-from.js1656837876891663609 0
 100/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/stable/symbol/async-iterator.js1656837876499664039 0
 91/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/stable/symbol/index.js1656837878407661950 0
 117/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@parcel/package-manager/test/fixtures/has-foo/subpackage1656837876103664473 1
@@ -7539,8 +7557,3 @@
 89/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/es/typed-array/of.js1656837878751661574 0
 94/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/es/typed-array/entries.js1656837877179663294 0
 94/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/es/typed-array/methods.js1656837878699661630 0
-91/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/es/typed-array/some.js1656837879031661267 0
-101/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@parcel/watcher/src/windows/win_utils.hh1656837875799664805 0
-98/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/es/typed-array/uint8-array.js1656837879387660878 0
-97/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/@parcel/codeframe/test/fixtures/a.js1656837874859665836 0
-96/home/huyphamfc/Desktop/javascript/018--Forkify/node_modules/core-js/es/typed-array/to-string.js1656837879295660979 0
