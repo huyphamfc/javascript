@@ -91,6 +91,12 @@ class RecipeView {
         this.#parentElement.innerHTML = '';
     }
 
+    eventHandler(handler) {
+        ['load', 'hashchange'].forEach(event =>
+            window.addEventListener(event, handler)
+        );
+    }
+
     renderSnipper() {
         const markup = `
             <div class="spinner">
