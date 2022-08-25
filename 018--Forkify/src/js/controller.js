@@ -1,41 +1,29 @@
-import * as model from './module.js';
-import recipeView from './views/recipeView.js';
-import 'core-js/stable';
-import 'regenerator-runtime/runtime';
-import recipeView from './views/recipeView.js';
-
-
-const recipeContainer = document.querySelector('.recipe');
-
-
-const timeout = function (s) {
-  return new Promise(function (_, reject) {
-    setTimeout(function () {
-      reject(new Error(`Request took too long! Timeout after ${s} second`));
-    }, s * 1000);
-  });
-};
-
 // https://forkify-api.herokuapp.com/v2
 
-///////////////////////////////////////
+import 'core-js/stable';
+import 'regenerator-runtime/runtime';
+
+import * as model from './model';
+import RecipeView from './views/recipe-view';
 
 
-const controlRecipe = async function () {
-  try {
-    const id = window.location.hash.slice(1);
-    if (!id) return;
+const controlRecipe = async () => {
+    try {
+        const id = window.location.hash.slice(1);
+        if (!id) return;
 
-    recipeView.renderSpinner();
+        RecipeView.renderSnipper();
 
-    await model.loadRecipe(id);
+        await model.loadRecipe(id);
 
-    recipeView.render(model.state.recipe);
-  } catch (err) {
-    alert(err);
-  }
+        RecipeView.render(model.state.recipe);
+    } catch (err) {
+        alert(err);
+    }
 }
 
-
-const events =
-  ['hashchange', 'load'].forEach(event => window.addEventListener(event, controlRecipe));
+['load', 'hashchange'].forEach(event =>
+    window.addEventListener(event, controlRecipe)
+);
+// window.addEventListener("hashchange", controlRecipe);
+// window.addEventListener("load", controlRecipe);
