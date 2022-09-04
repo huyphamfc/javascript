@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 1.6rem;
+}
+
+.lazy-image {
+    filter: blur(10px);
+}
+
+.intro {
+    max-width: 120rem;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto;
+
+    border: 2px solid #0000ff;
+}
+
+.intro__heading {
+    font-size: 4.8rem;
+}
+
+.section {
+    max-width: 120rem;
+
+    margin: 4.8rem auto;
+    padding: 3.2rem;
+
+    border: 2px solid #ff0000;
+}
+
+.section__img {
+    display: block;
+    width: 100%;
+}
