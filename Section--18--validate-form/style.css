@@ -1,0 +1,143 @@
+:root {
+    --color-pallet: #1a73e8;
+    --color-warning: #ff0000;
+    --color-green: #008000;
+    --color-gray: #999999;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 1.6rem;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    align-items: center;
+}
+
+.container {
+    width: 32rem;
+    padding: 3.2rem 1.6rem;
+}
+
+.form {
+    gap: 1.6rem;
+
+    padding: 3.2rem;
+
+    border-radius: 6px;
+    box-shadow: 0 0 4px var(--color-pallet);
+}
+
+.form__heading {
+    margin-bottom: 2.4rem;
+}
+
+.form__title {
+    font-size: 3.2rem;
+}
+
+.form__title span:first-of-type {
+    color: var(--color-pallet);
+}
+
+.form__title span:nth-of-type(2) {
+    color: var(--color-warning);
+}
+
+.form__title span:last-of-type {
+    color: var(--color-green);
+}
+
+.form__guide {
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.form__group {
+    gap: 0.64rem;
+}
+
+.form__label {
+    font-weight: bold;
+}
+
+.form__input {
+    font-size: inherit;
+
+    padding: 1.2rem;
+
+    border: 1px solid var(--color-gray);
+    border-radius: 4px;
+    outline: none;
+}
+
+.form__input::placeholder {
+    font-size: 1.4rem;
+}
+
+.form__input:hover,
+.form__input:focus {
+    border-color: var(--color-pallet);
+}
+
+.form__warning {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+    font-size: 1.2rem;
+}
+
+.form__group.invalid .form__input {
+    border-color: var(--color-warning);
+}
+
+.form__group.invalid .form__warning {
+    opacity: 1;
+    visibility: visible;
+
+    color: var(--color-warning);
+}
+
+.form__submit {
+    font-weight: bold;
+    padding: 1.2rem;
+
+    background-color: var(--color-pallet);
+    color: #fff;
+
+    border: 1px solid transparent;
+    border-radius: 6px;
+
+    cursor: pointer;
+    transition: all 0.5s;
+    outline: none;
+}
+
+.form__submit:hover {
+    background-color: transparent;
+    color: var(--color-pallet);
+
+    border-color: var(--color-pallet);
+}
+
+@media (max-width:26em) {
+    .form {
+        box-shadow: none;
+    }
+}
